@@ -40,3 +40,50 @@ lastname = "AI"
 # This is known as a f-string, which you can use to print out multiple variables
 
 print(f"My Name is {firstname} + {lastname}")
+
+
+# Escape Sequences
+
+"""
+1. \n: The newline character represents a line break. It is used to create a new line within a string. When the string is printed or displayed, the text following the newline character will appear on a new line.
+2. \t: The tab character represents a horizontal tab. It is used to insert a tab space within a string. This can be helpful for formatting output, such as creating indented or column-aligned text.
+
+\\: Backslash (to insert a literal backslash in the string)
+\": Double quote (to insert a literal double quote within a string enclosed by double quotes)
+\': Single quote (to insert a literal single quote within a string enclosed by single quotes)
+
+"""
+
+text = "Hello, World!\nWelcome to Python!"
+print(text)
+
+print("Languages: \n\tPython\n\tC\n\tJavascript")
+
+
+"""
+The choice between rstrip, lstrip, and strip depends on your specific requirements. If you only need to remove whitespace from one side of the string (either the beginning or the end), you would use lstrip() or rstrip(). If you want to remove whitespace from both sides, you would use strip().
+"""
+
+
+"""
+lstrip(): This method removes whitespace only from the beginning (left side) of a string. You might use lstrip() when you want to remove only the leading whitespace, but keep the trailing whitespace intact.
+"""
+text = "   Hello, World!   "
+result = text.lstrip()
+print(result)
+
+"""
+rstrip(): This method removes whitespace only from the end (right side) of a string. You might use rstrip() when you want to remove only the trailing whitespace, but keep the leading whitespace intact.
+"""
+
+text = "   Hello, World!   "
+result = text.rstrip()
+print(result)
+
+"""
+strip(): This method removes whitespace from both the beginning and the end of a string. If you want to get rid of all leading and trailing whitespace, strip() is the appropriate choice.
+"""
+
+text = "   Hello, World!   "
+result = text.strip()
+print(result)
