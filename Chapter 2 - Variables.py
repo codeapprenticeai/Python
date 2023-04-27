@@ -32,3 +32,11 @@ print(message)
 
 print("this is a string")
 print('This is also a string')
+
+
+firstname = "The Apprentice"
+lastname = "AI"
+
+# This is known as a f-string, which you can use to print out multiple variables
+
+print(f"My Name is {firstname} + {lastname}")
