@@ -39,3 +39,19 @@ print(cars)
 
 cars.insert(2, 'Audi')
 print(cars)
+
+# Deleting an item from a list
+
+del cars[1]
+print(cars)
+
+# Using the POP() method
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+# Just pop the number in of the index you want to pop i.e. motorcycles.pop(2)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+
