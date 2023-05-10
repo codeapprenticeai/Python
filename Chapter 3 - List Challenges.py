@@ -83,3 +83,7 @@ Created a function send_invitations() to handle sending invitations, reducing co
 Created a function update_guest_list() to handle guest updates, reducing code repetition.
 Instead of inserting/appending one by one for new guests, used a list and combined it with the existing guest list in a single line.
 """
+
+# Dinner Guests - using len
+
+print(len(guest_list))

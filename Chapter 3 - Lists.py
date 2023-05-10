@@ -55,3 +55,8 @@ popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
 
+# Sort - This is the perm option
+print(cars.sort(reverse=False))
+# Sorted - this is the temp option
+print(sorted(cars))
+
